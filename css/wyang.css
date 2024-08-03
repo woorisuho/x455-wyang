@@ -1,0 +1,408 @@
+body {
+    font-family: Gill Sans;
+    font-size: 11pt;
+    line-height: 17pt;
+}
+h1 {
+    font-family: Gill Sans;
+    font-size: 14pt;
+    line-height: 18pt;
+}
+h2 {
+    font-family: Gill Sans;
+    font-size: 10pt;
+}
+
+/*updated version of .w3-button*/
+.button-square{border:none;display:inline-block; 
+  padding:4px 14px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.button-round{border:none;display:inline-block; 
+  padding:4px 14px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  border-radius: 16px;
+  font-family: Gill Sans;
+  font-size: 8pt;
+  line-height: 13pt;
+}
+.button-hover:hover {
+  color: white !important;
+  background-color: rgb(0, 214, 255) !important;
+}
+
+/*NAV BAR START*/
+.navbar-header {
+  font-family: Orbitron;
+  font-size: 10pt;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.fa-search {
+  font-size: 0.5em
+}
+
+/*NAV BAR END*/
+
+/*ABOUT START*/
+.accordion {
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion:hover {
+  background-color: rgb(0, 214, 255);
+}
+
+.accordion:after {
+  content: '\002B';
+  color:  black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  color:black;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.about-title {
+  font-family: Gill Sans;
+  font-size: 16pt;
+  line-height: 18pt;
+  letter-spacing: 0.0rem;
+  color: black;
+}
+/*ABOUT END*/
+
+/*NEWS START*/
+.news-headline {
+  font-family: Gill Sans; 
+  font-size: 38pt;
+  font-weight: 100;
+  line-height: 40pt; 
+  letter-spacing: 0.0rem;
+  color: black;
+}
+.news-subhead {
+  font-family: Gill Sans; 
+  font-size: 16pt;
+  font-style: italic;
+  line-height: 20pt; 
+  letter-spacing:0.0rem;
+  color: black;
+  margin-top: 4px; 
+}
+.news-title {
+  font-family: Gill Sans; 
+  font-size: 11pt; 
+  font-weight:600;
+  color: black;
+}
+.news-subtitle {
+  font-family: Gill Sans; 
+  font-size: 11pt; 
+  line-height:15pt;
+  color: black;
+  font-style: italic;
+}
+.news-text {
+  font-family: Gill Sans; 
+  font-size: 11pt;
+  line-height: 15pt; 
+  color:rgb(120, 120, 120);
+}
+.news-readmore {
+  font-family: Gill Sans;
+  font-size: 8pt;
+  font-weight: 600;
+  line-height:12pt;
+  color: black;
+}
+hr.border {
+  border: 0.75px solid black;
+}
+hr.panel {
+  border: 0.75px solid black;
+}
+.vline {
+  border-left: 1px solid rgb(225, 225, 225);
+  height: 1450px;
+}
+.tourbuttoncolor {
+  background-color:  white;
+}
+.w3-hoverable tbody tr:hover,
+.w3-ul.w3-hoverable li:hover {
+  background-color: rgb(0, 214, 255);
+}
+
+/*NEWS END*/
+
+/*MUSIC START*/
+
+.row-music {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-music {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-music img {
+  margin-top: 50px;
+  vertical-align: middle;
+  width: 80%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-music {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-music {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.modal-content {
+  margin: auto;
+  background-color: black;
+  position: relative;
+  padding: 0;
+  padding-bottom: 40px;
+  outline: 0;
+  width: 600px;
+}
+
+.scroll {
+  margin: 0 auto;
+  background-color: black;
+  width: 400px;
+  height: 200px;
+  overflow: scroll;
+}
+
+.music-title {
+  font-family: Gill Sans; 
+  font-size: 14pt;
+  line-height: 18pt; 
+  color:rgb(100, 230, 255);
+}
+.music-text {
+  font-family: Gill Sans; 
+  font-size: 11pt;
+  line-height: 15pt; 
+  color:rgb(100, 230, 255);
+}
+
+/*MUSIC END*/
+
+/*VIDEOS START*/
+.mySlides {
+  display: none;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.column-video {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  min-height: 400px;
+  text-align: center;
+}
+.row-video:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+iframe {
+  width: 100%;
+  border: 0px;
+}
+  @media screen and (max-width: 800px) {
+    .column-video {
+     width: 100%;
+  }
+}
+.video-text {
+  font-family: Gill Sans;
+  font-size: 14px;
+}
+/*VIDEOS END*/
+
+/*TOUR START*/
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  cursor: pointer;
+  font-family: Gill Sans;
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+td {
+  font-family: Gill Sans;
+  font-size: 11pt;
+  line-height: 17pt;
+  height: 35px; /* row height adjustment */
+}
+
+th, td {
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
+/*TOUR END*/
+
+/*STORE START*/
+
+.row-store {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+  
+/* Create 3 equal columns that sits next to each other */
+.column-store {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 2px 40px;
+  margin-top: 15px;
+}
+  
+.column-store img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-store {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-store {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.store-text {
+  font-family: Gill Sans;
+  font-size: 11pt;
+  line-height: 15pt;
+  text-align: center;
+}
+.margin-cart {
+  margin-top: -8px;
+}
+
+.mySlides
+{display:none;
+}
+
+/*STORE END*/
+
+/*FOOTER START*/
+.fa {
+  padding: 6px;
+  font-size: 16px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: rgb(190,190,190);
+  color:  black;
+}
+.fa-facebook {
+  background: rgb(190,190,190);
+  color:  black;
+}
+.fa-twitter {
+  background: rgb(190,190,190);
+  color:  black;
+}
+.fa-spotify {
+  background: rgb(190,190,190);
+  color:  black;
+}
+.fa-youtube-play {
+  background: rgb(190,190,190);
+  color:  black
+}
+
+/*FOOTER END*/
+
