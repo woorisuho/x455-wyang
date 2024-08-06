@@ -220,7 +220,7 @@ hr.panel {
   padding: 0;
   padding-bottom: 40px;
   outline: 0;
-  width: 600px;
+  width: 450px;
 }
 
 .scroll {
@@ -239,8 +239,8 @@ hr.panel {
 }
 .music-text {
   font-family: Gill Sans; 
-  font-size: 11pt;
-  line-height: 15pt; 
+  font-size: 10pt;
+  line-height: 14pt; 
   color:rgb(100, 230, 255);
 }
 
