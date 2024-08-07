@@ -216,10 +216,10 @@ hr.panel {
 
 .modal-content {
   max-width:calc(100% - 80px);
-  max-height:calc(100% - 80px);
+  max-height:calc(100% - 60px);
   background-color: black;
   margin: auto;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   outline: 0;
   width: 600px;
 }
@@ -237,7 +237,6 @@ hr.panel {
 .scroll {
   margin: 0 auto;
   max-width:calc(100% - 80px);
-  max-height:calc(100% - 80px);
   background-color: black;
   width: 400px;
   height: 200px;
